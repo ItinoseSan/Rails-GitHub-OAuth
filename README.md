@@ -1,7 +1,9 @@
 # Use example
-```erb
-<% if current_user %>
+```ruby
+def foobar
+ if current_user
   # write method here
-<% else %>
-<% end %>  
+ else 
+  return
+end  
 ```

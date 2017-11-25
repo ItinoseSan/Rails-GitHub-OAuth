@@ -4,6 +4,6 @@ def foobar
  if current_user
   # write method here
  else 
-  return
+  redirect_to your_session_path
 end  
 ```

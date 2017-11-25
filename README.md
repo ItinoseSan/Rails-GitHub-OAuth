@@ -1,6 +1,6 @@
 # Use example
 ```ruby
-class HogeFooController
+class HogeFooController < ApplicationController
   def index
    if current_user
       # write method here
